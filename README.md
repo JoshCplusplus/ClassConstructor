@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CSE110Project
 
 ## Introduction
