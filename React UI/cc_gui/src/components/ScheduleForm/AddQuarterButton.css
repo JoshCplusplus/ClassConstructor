@@ -1,0 +1,69 @@
+body {
+    --quarter-bg: #006A96;
+    --border-color: black;
+    --border-thickness: 2px;
+    --title-bg-color: #182B49;
+    --title-text-color: white;
+    --text-color: white;
+    --border-radius: 12px;
+    --width: 13rem;
+    --height: 12rem;
+    --inner-border-thickness: 1px;
+    --inner-border-color: black;
+
+    --hovering: #005d84;
+}
+
+
+
+.button {
+
+    opacity: 0.3;
+
+
+    /*Set Dimension*/
+    width: var(--width);
+    height: var(--height);
+
+    /*Background coloring*/
+    background-color: var(--quarter-bg);
+
+    /*Borders (outside)*/
+    border-radius: var(--border-radius);
+    overflow: hidden;
+
+    /*Cursor Management*/
+    cursor: default;
+}
+
+.button-table {
+
+    opacity: 1;
+
+    /*Fill*/
+    width: 100%;
+    height: 100%;
+
+    /*Text-Management*/
+    text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    color: var(--title-text-color);
+
+    /*Border Management*/
+    border-collapse: collapse;
+}
+
+
+.title-row {
+    /*Background Title Color*/
+    background-color: var(--title-bg-color);
+}
+
+
+.button-hovering {
+    background-color: var(--hovering);
+}
+
+.button-not-hovering {
+    background-color: var(--quarter-bg);
+}

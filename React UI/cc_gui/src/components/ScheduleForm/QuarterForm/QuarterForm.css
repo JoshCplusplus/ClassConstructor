@@ -1,0 +1,32 @@
+
+.quarter-form-wrapper {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    /*background-color: yellow;*/
+}
+
+.quarter-form-title {
+    background-color: rgba(0, 106, 150, 01);
+    color: white;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    border-radius: 5px;
+    width: 96%;
+    position: relative;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 0%);
+}
+
+.course-entries-container {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

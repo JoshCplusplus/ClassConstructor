@@ -1,0 +1,48 @@
+@import url('./ScheduleConstants.css');
+
+.base-schedule-summary {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+}
+
+.description {
+    text-align: var(--course-description-text-align);
+    width: auto;
+    height: auto;
+}
+
+.prereqs {
+    text-align: var(--prereqs-text-align);
+    width: 100%;
+    height: auto;
+}
+
+.empty {
+    background-color: black;
+    height: 1rem;
+    width: 5rem;
+}
+
+.summary-container {
+    position: absolute;
+    width: var(--summary-container-width);
+    height: var(--summary-container-height);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-header {
+    font-weight: bold;
+}
+
+.listStyle {
+    list-style-type: none;
+}
+
+.incomplete-course {
+    color: rgba(230, 0, 0, 1);
+    background-color: transparent;
+}

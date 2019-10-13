@@ -1,0 +1,9 @@
+.left-searchbar-wrapper {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    z-index: 100;
+}

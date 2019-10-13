@@ -1,0 +1,71 @@
+@import url('./ScheduleConstants.css');
+
+.quarter {
+    /*Fill*/
+    width: 100%;
+    height: 100%;
+
+    /*Text-Management*/
+    text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    color: var(--quarter-title-text-color);
+
+    /*Border Management*/
+    border-collapse: collapse;
+
+}
+
+.total {
+    /*Set Dimension*/
+    width: var(--quarter-width);
+    height: var(--quarter-height);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    /*Background coloring*/
+    background-color: var(--quarter-bg-color);
+
+    /*Borders (outside)*/
+    border-radius: var(--quarter-border-radius);
+    border: var(--quarter-border-thickness) solid var(--quarter-border-color);
+    overflow: hidden;
+
+    /*Cursor Management*/
+    cursor: default;
+}
+
+
+.title-row {
+    /*Background Title Color*/
+    background-color: var(--quarter-title-bg-color) !important;
+    color: #FFCD00;
+}
+
+.quarter-container {
+    width: 100%;
+    height: 100%;
+}
+
+.quarter-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100%;
+    background-color: rgba(39, 115, 181, 0.75);
+}
+
+.column {
+    height: 100%;
+    width: 100%;
+}
+
+.unit-title-column {
+    text-align: center;
+    height: 100%;
+    width: 80%;
+}
+
+.unit-column {
+    height: 100%;
+    width: 20%;
+    text-align: left;
+}

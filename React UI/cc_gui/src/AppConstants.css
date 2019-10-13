@@ -1,0 +1,47 @@
+:root {
+
+    
+    /*
+    ---------------------------------------------
+        Background Colors
+    ---------------------------------------------
+    */
+    /* Primary background color for most pages */
+    --main-page-bg-color: lightblue;
+
+    /* Background color for the schedule page*/
+    --page-root-bg-color: #FFFFF0;
+
+    /* Sidebar background color */
+    --sidebar-bg-color: rgba(12, 22, 38, 1);
+
+
+    /*
+    ---------------------------------------------
+        Top Styling
+    ---------------------------------------------
+    */
+    --top-shadow: 0px 1px 10px rgba(0, 0, 0, 0.7);
+    --top-height: 4rem;
+    --top-width: 100%;
+    --top-z-index: 1;
+
+
+    /*
+    ---------------------------------------------
+        Bot Styling
+    ---------------------------------------------
+    */
+    --bot-height: 9rem;
+    --bot-width: 100%;
+    --bot-z-index: 1;
+
+
+    /*
+    ---------------------------------------------
+        Whole Font Styling
+    ---------------------------------------------
+    */
+    --font-family: "Arial Rounded MT Bold";
+    --font-size: 25px;
+}

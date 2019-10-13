@@ -1,0 +1,9 @@
+
+.course-listing-wrapper {
+    position: absolute;
+    width: 100% !important;
+    max-height: 100% !important;
+    background-color: white;
+    padding: 0px;
+    /* overflow: hidden; */
+}

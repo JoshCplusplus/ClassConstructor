@@ -1,0 +1,39 @@
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+div::-webkit-scrollbar {
+    width: 0;
+}
+
+.sidebar-image-row {
+    margin-top: 1rem;
+    width: 100%;
+    height: 5%;
+}
+
+.sidebar-profile-row {
+    width: 100%;
+    border-width: 5px;
+    border-color: white;
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    margin-left: 6.5%;
+
+}
+
+.sidebar-image {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: 8rem;
+    height: 8rem;
+}

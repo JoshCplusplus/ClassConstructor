@@ -1,0 +1,37 @@
+@import url('./ScheduleConstants.css');
+
+
+
+.schedule-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: var(--schedule-wrapper-bot);
+    top: var(--schedule-wrapper-top);
+    transform: translate(-50%, 0%);
+    width: var(--schedule-wrapper-width);
+    max-width: var(--schedule-wrapper-max-width);
+}
+
+.schedule-wrapper-no-course-overview {
+    position: absolute;
+    left: 50%;
+    bottom: var(--schedule-wrapper-bot-no-course-overview);
+    top: var(--schedule-wrapper-top);
+    transform: translate(-50%, 0%);
+    width: var(--schedule-wrapper-width);
+    max-width: var(--schedule-wrapper-max-width);
+}
+
+.schedule-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.grid {
+    position: absolute;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+}

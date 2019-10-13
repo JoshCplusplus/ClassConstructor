@@ -1,0 +1,86 @@
+
+:root {
+    /*
+    ---------------------------------------------
+        Schedule Wrapper Positioning and Size
+    ---------------------------------------------
+    */
+    --schedule-wrapper-bot: 13rem;
+    --schedule-wrapper-bot-no-course-overview: 0rem;
+    --schedule-wrapper-top: 0%;
+
+    /* Set the width to hold 5 quarters in a row, but set max to not overflow*/
+    --schedule-wrapper-width: 75rem;
+    --schedule-wrapper-max-width: 96%;
+
+    /*
+    ---------------------------------------------
+        Schedule Summary Styling
+    ---------------------------------------------
+    */
+    --schedule-summary-bg-color: rgba(57, 141, 214, 0.98);
+
+
+    /*
+    ---------------------------------------------
+        Course Description Styling
+    ---------------------------------------------
+    */
+    --course-description-text-align: left;
+
+
+    /*
+    ---------------------------------------------
+        Course Pre-requisites Styling
+    ---------------------------------------------
+    */
+    --prereqs-text-align: left;
+
+    /*
+    ---------------------------------------------
+        Summary Container Styling
+    ---------------------------------------------
+    */
+    --summary-container-width: 90%;
+    --summary-container-height: 90%;
+
+
+    /*
+    ---------------------------------------------
+        Schedule Title Styling
+    ---------------------------------------------
+    */
+    --schedule-title-bg-color: rgba(57, 141, 214, 0.90);
+    --schedule-title-entry-bg-color: rgba(57, 141, 214, 0.0);
+    --schedule-title-font-size: 35px;
+    --schedule-title-font-color: black;
+
+
+
+    /*
+    ---------------------------------------------
+        Quarter Styling
+    ---------------------------------------------
+    */
+    --quarter-bg-color: rgba(46, 112, 170, 0.0);         /* Covered by the course background color*/
+    --quarter-border-color: black;
+    --quarter-border-thickness: 0px;
+    --quarter-title-bg-color: rgba(38, 72, 127, 0.9);
+    --quarter-title-text-color: white;
+    --quarter-text-color: white;
+    --quarter-border-radius: 9px;
+    --quarter-width: 13rem;
+    --quarter-height: 12rem;
+    --quarter-inner-border-thickness: 1px;
+    --quarter-inner-border-color: black;
+
+
+    /*
+    ---------------------------------------------
+        Course Styling
+    ---------------------------------------------
+    */
+
+
+
+}

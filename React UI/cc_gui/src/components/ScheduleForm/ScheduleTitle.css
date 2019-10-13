@@ -1,0 +1,181 @@
+@import url('./ScheduleConstants.css');
+
+
+.schedule-title-wrapper {
+    height: 100%;
+    background-color: var(--schedule-title-bg-color);
+    width: 100%;
+}
+
+
+.export {
+    position: relative;
+    cursor: pointer;
+    width: 9%;
+    min-width: 5rem;
+    top: 15%;
+    left: 91%;
+    font-size: 30px;
+    -moz-user-select: none; /* Firefox */
+         -ms-user-select: none; /* Internet Explorer */
+      -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+     -webkit-user-select: none; /* Chrome, Safari, and Opera */
+     -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+    border-radius: 5px;
+    background-color: rgba(198, 146, 20, 0.4);
+}
+
+.export-hovering {
+    position: relative;
+    cursor: pointer;
+    width: 7%;
+    top: 15%;
+    left: 91%;
+    font-size: 30px;
+    -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer */
+      -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+     -webkit-user-select: none; /* Chrome, Safari, and Opera */
+     -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+     border-radius: 5px;
+    background-color: rgba(198, 146, 20, 1);
+
+}
+
+.form-styling {
+    height: 70%;
+    width: 45%;
+
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgba(57, 141, 214, 1);
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-styling-hover {
+    height: 70%;
+    width: 45%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    background-color: rgba(57, 141, 214, 0.5);
+    opacity: 0.9;
+}
+
+.schedule-title-label {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title-entry {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 95%;
+    transform: translate(-50%, -50%);
+    background-color: var(--schedule-title-entry-bg-color);
+    text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: var(--schedule-title-font-size);
+    border: none;
+    color: var(--schedule-title-font-color);
+    outline: none;
+
+}
+
+.schedule-entry-image {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    transform: translate(0%, 30%);
+    opacity: 0.4;
+}
+
+.schedule-entry-image-hover {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    transform: translate(0%, 30%);
+    opacity: 1;
+}
+
+.schedule-entry-delete-button-hover {
+    background-color: red;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+
+    background-color: rgba(255, 80, 45, 0.55);
+
+    border-radius: 3px;
+
+    /* Text Alignment */
+    text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.schedule-entry-delete-button {
+    background-color: transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+
+    border-radius: 3px;
+
+    /* Text Alignment */
+    text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.del-quarter {
+    position: absolute;
+    cursor: pointer;
+    width: 6rem;
+    min-width: 5rem;
+    top: 15%;
+    left: 89%;
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+    border-radius: 5px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    transform: translate(-20%, -5%);
+    opacity: 0.3;
+}
+
+.del-quarter-hover {
+    position: absolute;
+    cursor: pointer;
+    width: 6rem;
+    top: 15%;
+    left: 89%;
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+    border-radius: 5px;
+    background-color: rgba(255, 80, 45, 0.55);
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    transform: translate(-20%, -5%);
+
+}

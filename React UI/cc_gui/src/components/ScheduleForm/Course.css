@@ -1,0 +1,96 @@
+
+body {
+    --inner-border-thickness: 1px;
+    --inner-border-color: blue;
+}
+
+
+.remove-button {
+    text-align: center;
+    width: 14%;
+}
+
+.course-base {
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+}
+
+.hovering {
+    color: gold;
+}
+
+.not-hovering {
+
+}
+
+.likely {
+}
+
+
+
+/* Selected */
+
+.selected-likely {
+    background-color: rgba(39, 115, 181, 1);
+}
+
+.selected-unlikely {
+    background-color: rgba(132, 109, 38, 1);
+}
+
+.selected-lacks-prereqs {
+    background-color: rgba(163, 40, 40, 1);
+}
+
+/* Hover */
+
+.hover-likely {
+    background-color: rgba(39, 115, 181, 0.85);
+}
+
+.hover-unlikely {
+    background-color: rgba(132, 109, 38, 0.85);
+}
+
+.hover-lacks-prereqs {
+    background-color: rgba(163, 40, 40, 0.85);
+}
+
+/* Vanilla */
+
+.likely {
+    background-color: rgba(39, 115, 181, 0.75);
+}
+
+.unlikely {
+    background-color: rgba(132, 109, 38, 0.75);
+}
+
+.lacks-prereqs {
+    background-color: rgba(163, 40, 40, 0.75);
+}
+
+.course-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.course-title {
+    width: 55%;
+    height: 100%;
+}
+
+.course-units {
+    width: 20%;
+    height: 100%;
+}
+
+.course-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+    cursor: pointer;
+}

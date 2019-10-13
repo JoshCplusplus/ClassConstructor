@@ -1,0 +1,35 @@
+.rcorners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: inherit;
+    height: 150px;
+  }
+
+.list-group{
+    min-height: 300px;
+    overflow: hidden;
+
+}
+.container-academic-history-top {
+    width: 100%;
+    height: 100%;
+}
+
+.container-academic-history-content {
+  width: 75%;
+  height: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.right-search-bar {
+  width: 20%;
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  height: 100%;
+  background-color: yellow;
+  z-index: 2;
+  overflow: hidden;
+}

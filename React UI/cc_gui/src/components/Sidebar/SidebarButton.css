@@ -1,0 +1,70 @@
+
+
+.on-hover {
+    background-color: #006A96;
+}
+
+.schedule-button {
+    background-color: rgba(24, 43, 73, 1);
+}
+
+.add-schedule-button {
+    background-color: rgba(0, 66, 44, 1);
+}
+
+.page-button {
+    background-color: rgba(12, 22, 38, 1);
+}
+
+.at-page {
+    background-color: rgba(198, 146, 20, 1);
+}
+
+
+.sidebar-button-button {
+    /* Coloring and outline*/
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    outline: none !important;
+
+    /* Positioning and height*/
+    height: 100%;
+    width: 98%;
+    margin-top: .4rem;
+    margin-left: 5%;
+
+    /* Text management*/
+    text-align: left;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: 1.3rem;
+    color: var(--title-text-color);
+
+    /*Text selecting*/
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;
+}
+
+.schedule-button-button {
+    /* Coloring and outline*/
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    outline: none !important;
+
+    /* Positioning and height*/
+    height: 100%;
+    width: 98%;
+    margin-top: .4rem;
+    margin-left: 5%;
+
+    /* Text management*/
+    text-align: left;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+    font-size: 1.1rem;
+    color: var(--title-text-color);
+
+    /*Text selecting*/
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;
+}

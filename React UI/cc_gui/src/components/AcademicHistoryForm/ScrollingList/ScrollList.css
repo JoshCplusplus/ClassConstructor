@@ -1,0 +1,73 @@
+.classes {
+    width: 10%;
+}
+
+.show-overflow {
+    overflow-y: auto !important;
+}
+
+.full-size {
+    height: 100% !important;
+    width: 100% important;
+}
+
+.base-z {
+    z-index: auto !important;
+    display: inline-block !important;
+    width: 80% !important;
+
+}
+
+.course-list {
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    height: 80%;
+    display: inline-block;
+}
+
+
+.button-scroll-list-title {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(50, 193, 100, 0.6);
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.button-scroll-list-title-hovering {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(50, 193, 100, 1);
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.scroll-list-title, .scroll-list-title-hovering {
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.hover-menu-toggle{
+    display: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 16px;
+  }
+  
+.hover-menu:hover .hover-menu-toggle {
+    display: inline-block;
+  }
+
+.course-addon {
+  display: inline-block;
+}

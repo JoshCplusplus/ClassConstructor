@@ -1,0 +1,19 @@
+**/audits/*
+**/venv
+**/.DS_Store
+**/audit.html
+**/__pycache__
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+package-lock.json
+package.json
+
+**/node_modules
+node_modules/
+
+**/*.env
+**/*.swp
+**/package-lock.json

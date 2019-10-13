@@ -1,0 +1,32 @@
+
+.course-entries-wrapper {
+    width: 100%;
+    height: 95%;
+    /*background-color: orange;*/
+    margin: 0px;
+    top: 5%;
+    position: absolute;
+}
+
+.course-list-container {
+}
+
+
+.course-row-wrapper {
+
+    /* Positioning */
+    width: 80%;
+    height: 4rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 1.5%;
+}
+
+.course-entry-nuke-button {
+    background-color: indianred;
+    width: 6rem;
+    height: 2rem;
+    top: 1rem;
+    border-radius: 0px;
+}
